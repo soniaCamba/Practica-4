@@ -49,6 +49,8 @@ void anotherTask( void * parameter )
 > 1: Prioridad de la tasca (puede variar entre 1-24).
 > NULL: Identificador de tareas.
 
+Dentro del loop definimos el tiempo de espera, en este caso 1000ms. Será el tiempo que tardará en sacar por panatalla "this is ESP32 Task" y ejecutar el subprograma anotherTask. Que a la vez imprimirá otro mensaje : this is another Task.
+
 ## PREGUNTAS
 ### ¿qué sucede si está utilizando una pantalla de tinta electrónica que tarda unos segundos en actualizarse?
 Que si la nueva orden tarda menos en ejecutarse, la pantalla no estaria sincronizada con el propio programa que se esta ejecutando.
