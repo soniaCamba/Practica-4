@@ -2,7 +2,7 @@
 
 # Practica 4A
 
-## CODIGO
+## CÓDIGO
 ```
 #include <Arduino.h>
 
